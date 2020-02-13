@@ -13,6 +13,7 @@ end
 
 def add_element_to_start_of_array(cute_pets = ["Snake","Cat","Dog"], element)
   #cute_pets = ["Snake","Cat","Dog"]
+  element = "Pigs"
   cute_pets.pop("Pig")
 end
 
