@@ -14,7 +14,7 @@ end
 def add_element_to_start_of_array(cute_pets = ["Snake","Cat","Dog"], element)
   #cute_pets = ["Snake","Cat","Dog"]
   element = "Pigs"
-  cute_pets.pop("Pig")
+  cute_pets.pop(element)
 end
 
 def remove_element_from_end_of_array(cute_pets = ["Snake","Cat","Dog","arrays!"])
