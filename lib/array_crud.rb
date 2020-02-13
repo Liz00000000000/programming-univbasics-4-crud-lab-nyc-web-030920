@@ -30,9 +30,8 @@ def retrieve_element_from_index(array, index_number)
     puts [3]
 end
 
-def retrieve_first_element_from_array(array)
-  ["Greg","Kenji","Tricia","Liz"]
-  puts [0]
+def retrieve_first_element_from_array(names = ["wow","Kenji","Liz","Greg"])
+  names[0]
 end
 
 def retrieve_last_element_from_array(names = ["Greg","Kenji","Tricia","Liz"])
