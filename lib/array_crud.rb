@@ -18,8 +18,7 @@ def add_element_to_start_of_array(cute_pets = ["Snake","Cat","Dog"], element)
 end
 
 def remove_element_from_end_of_array(array)
-  cute_pets = ["Snake","Cat","Dog","arrays!"]
-  cute_pets.shift
+  ["Snake","Cat","Dog","arrays!"].shift
 end
 
 def remove_element_from_start_of_array(array)
