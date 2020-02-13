@@ -39,6 +39,6 @@ def retrieve_last_element_from_array(names = ["Greg","Kenji","Tricia","Liz"])
   names[-1]
 end
 
-def update_element_from_index(names = ["Greg","Kenji","Tricia","Liz"])
+def update_element_from_index(names = ["Greg","Kenji","Tricia","Liz"], index, element)
   names[3] = "totally"
 end
