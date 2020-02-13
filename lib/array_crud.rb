@@ -24,17 +24,17 @@ end
 
 def retrieve_element_from_index(array, index_number)
     ["Greg","Kenji","Tricia","Liz"]
-    pust [3]
+    puts [3]
 end
 
 def retrieve_first_element_from_array(array)
   ["Greg","Kenji","Tricia","Liz"]
-  pust [0]
+  puts [0]
 end
 
 def retrieve_last_element_from_array(array)
   ["Greg","Kenji","Tricia","Liz"]
-  pust [-1]
+  puts [-1]
 end
 
 def update_element_from_index(array, index_number, element)
