@@ -39,5 +39,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   ["Greg","Kenji","Tricia","Liz"]
-  [3] = ("Matt")
+  [3] == ("Matt")
 end
