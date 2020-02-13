@@ -21,8 +21,8 @@ def remove_element_from_end_of_array(array)
   ["Snake","Cat","Dog","arrays!"].shift
 end
 
-def remove_element_from_start_of_array(array)
-  ["Greg","Kenji","Tricia","Liz"].unshift
+def remove_element_from_start_of_array(names = ["wow","Kenji","Tricia","Liz"])
+  names.unshift
 end
 
 def retrieve_element_from_index(names = ["Greg","Kenji","am","Liz"], index_number)
