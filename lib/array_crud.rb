@@ -35,9 +35,8 @@ def retrieve_first_element_from_array(array)
   puts [0]
 end
 
-def retrieve_last_element_from_array(array)
-  ["Greg","Kenji","Tricia","Liz"]
-  puts [-1]
+def retrieve_last_element_from_array(names = ["Greg","Kenji","Tricia","Liz"])
+  names[-1]
 end
 
 def update_element_from_index(array, index_number, element)
