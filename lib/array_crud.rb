@@ -13,7 +13,7 @@ end
 def add_element_to_start_of_array(array, element)
   #cute_pets = ["Snake","Cat","Dog"]
   #element = "Pigs"
-  array.pop(element)
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
