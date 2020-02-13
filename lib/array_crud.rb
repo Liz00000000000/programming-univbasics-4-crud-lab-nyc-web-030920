@@ -7,12 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["Snake","Cat","Dog"] << "Pig"
+  cute_pets = ["Snake","Cat","Dog"]
+  cute_pets << "Pig"
 end
 
 def add_element_to_start_of_array(array, element)
   cute_pets = ["Snake","Cat","Dog"]
-  cute_pets << "Pig"
+  cute_pets.pop("Pig")
 end
 
 def remove_element_from_end_of_array(array)
